@@ -25,11 +25,11 @@ license_file "COPYING"
 source url: "https://www.kernel.org/pub/linux/utils/util-linux/v#{version}/util-linux-#{version}.tar.gz"
 # We use the version in util-linux, and only build the libuuid subdirectory
 version "2.27.1" do
-  source md5: "e9c73747eadf5201b2a198530add4f87",
+  source sha256: "133c14f625d40e90e73e9d200faf3f2ce87937b99f923c84e5504ac0badc71d6",
          url: "https://www.kernel.org/pub/linux/utils/util-linux/v2.27/util-linux-2.27.1.tar.gz"
 end
 version "2.21" do
-  source md5: "4222aa8c2a1b78889e959a4722f1881a"
+  source sha256: "c4a221015a1403acbe4625bd17f5cfa5e659c9e1e987a020c1a0fd6413e66a31"
 end
 
 relative_path "util-linux-#{version}"
